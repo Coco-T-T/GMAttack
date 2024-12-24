@@ -189,7 +189,7 @@ def main(args, config):
     ref_model, ref_tokenizer = load_ref_model(device)
     
     model = ALBEF(config = config, text_encoder=args.text_encoder, tokenizer=ref_tokenizer)
-    checkpoint = torch.load('/checkpoints/refcoco.pth', map_location='cpu')
+    checkpoint = torch.load('/checkpoints/ALBEF_refcoco.pth', map_location='cpu')
     try:
         state_dict = checkpoint['model']
     except:
