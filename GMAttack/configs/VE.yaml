@@ -1,0 +1,22 @@
+train_file: '/dataset/ve_train.json'
+val_file: '/dataset/ve_dev.json'
+test_file: '/dataset/ve_test.json'
+
+image_root: '/dataset/flickr30k-images'
+
+image_res: 384
+batch_size_train: 8
+batch_size_test: 4
+
+alpha: 5
+distill: False
+warm_up: False
+
+epsilon: 8
+num_iters: 10
+sample_num: 10
+
+bert_config: './config_bert.json'
+
+optimizer: {opt: adamW, lr: 2e-5, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 2e-5, epochs: 5, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 1, cooldown_epochs: 0}

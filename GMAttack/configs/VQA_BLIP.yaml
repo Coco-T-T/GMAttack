@@ -1,0 +1,27 @@
+vqa_root: '/dataset/VQAv2' #followed by train2014/
+train_files: ['vqa_train','vqa_val']
+ann_root: 'annotation'
+
+# set pretrained as a file path or an url
+pretrained: '/checkpoints/model_vqa.pth'
+
+# size of vit model; base or large
+vit: 'base'
+batch_size_train: 1
+batch_size_test: 1
+init_lr: 2e-5
+
+image_res: 480
+
+k_test: 128
+inference: 'rank'
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 10
+
+alpha: 5
+epsilon: 8
+num_iters: 10
+sample_num: 1
