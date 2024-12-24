@@ -1,5 +1,5 @@
-test_file: '/dataset/coco_test.json'
-image_root: '/dataset/mscoco'
+test_file: '/data/coco_test.json'
+image_root: '/data/mscoco'
 
 bert_config: './config_bert.json'
 
