@@ -4,7 +4,7 @@ train_file: ['/dataset/vqa_train.json',
 test_file: ['/dataset/vqa_test.json']
 answer_list: '/dataset/answer_list.json'
 
-vqa_root: '/dataset/VQAv2' #train2014/
+vqa_root: '/dataset/mscoco' #train2014/
 
 image_res: 384
 batch_size_train: 4
