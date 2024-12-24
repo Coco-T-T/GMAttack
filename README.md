@@ -20,7 +20,7 @@ Download datasets and the corresponding json files. The specific file structure 
 - Finetuned checkpoint for [TCL](https://github.com/uta-smile/TCL)
 - Finetuned checkpoint for [BLIP](https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_vqa.pth)
 ## File Structure
-Here is the **recommended file structure**. You can customize the file structure and modify the corresponding directory information in the files under `/config`.
+Here is the recommended file structure. You can customize the file structure and modify the corresponding directory information in the files under `/config`.
 ```bash
 /
 ├── data/	# datasets & json files
