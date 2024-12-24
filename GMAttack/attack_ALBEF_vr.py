@@ -301,7 +301,7 @@ if __name__ == '__main__':
     # parser.add_argument('--config', default='./configs/Retrieval_coco.yaml')
     parser.add_argument('--output_dir', default='./output/VR')
     parser.add_argument('--text_encoder', default='bert-base-uncased')
-    parser.add_argument('--gpu', type=int, nargs='+', default=[3])
+    parser.add_argument('--gpu', type=int, nargs='+', default=[0])
     parser.add_argument('--seed', default=42, type=int)
     args = parser.parse_args()
 
