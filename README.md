@@ -68,7 +68,7 @@ Here is the recommended file structure. You can customize the file structure and
 └── GMAttack/	#our repository
 ```
 ## Evaluation
-Run the program `/GMAttack/attack_MODEL_TASK.py` to evaluate the attack performance of :
+Run the program `/GMAttack/attack_MODEL_TASK.py` to evaluate the attack performance:
 
 ```python
 python attack_ALBEF_ve.py --gpu 0
