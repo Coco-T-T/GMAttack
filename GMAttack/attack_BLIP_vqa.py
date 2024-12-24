@@ -215,7 +215,7 @@ if __name__ == '__main__':
     parser.add_argument('--correct_idx_store', default='./right_vqa_list.txt')
     parser.add_argument('--correct_pred_store', default='./right_vqa_ans_table.txt')
     parser.add_argument('--seed', default=42, type=int)
-    parser.add_argument('--gpu', type=int, nargs='+',  default=[3])
+    parser.add_argument('--gpu', type=int, nargs='+', default=[0])
     args = parser.parse_args()
 
     config = yaml.load(open(args.config, 'r'), Loader=yaml.Loader)
