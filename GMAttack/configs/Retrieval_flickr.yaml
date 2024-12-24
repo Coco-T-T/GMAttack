@@ -1,5 +1,5 @@
-test_file: '/dataset/flickr30k_test.json'
-image_root: '/dataset' #flickr30k-images/
+test_file: '/data/flickr30k_test.json'
+image_root: '/data' #flickr30k-images/
 
 bert_config: './config_bert.json'
 
