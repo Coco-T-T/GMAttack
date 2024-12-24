@@ -1,8 +1,8 @@
-train_file: '/dataset/ve_train.json'
-val_file: '/dataset/ve_dev.json'
-test_file: '/dataset/ve_test.json'
+train_file: '/data/ve_train.json'
+val_file: '/data/ve_dev.json'
+test_file: '/data/ve_test.json'
 
-image_root: '/dataset/flickr30k-images'
+image_root: '/data/flickr30k-images'
 
 image_res: 384
 batch_size_train: 8
