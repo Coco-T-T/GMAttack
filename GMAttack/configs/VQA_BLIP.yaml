@@ -3,7 +3,7 @@ train_files: ['vqa_train','vqa_val']
 ann_root: 'annotation'
 
 # set pretrained as a file path or an url
-pretrained: '/checkpoints/model_vqa.pth'
+pretrained: '/checkpoints/BLIP_vqa.pth'
 
 # size of vit model; base or large
 vit: 'base'
