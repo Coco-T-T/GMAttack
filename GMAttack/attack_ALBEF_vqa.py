@@ -205,7 +205,7 @@ if __name__ == '__main__':
     parser.add_argument('--text_encoder', default='bert-base-uncased')  
     parser.add_argument('--text_decoder', default='bert-base-uncased')
     parser.add_argument('--seed', default=42, type=int)
-    parser.add_argument('--gpu', type=int, nargs='+',  default=[0])
+    parser.add_argument('--gpu', type=int, nargs='+', default=[0])
     args = parser.parse_args()
 
     config = yaml.load(open(args.config, 'r'), Loader=yaml.Loader)
