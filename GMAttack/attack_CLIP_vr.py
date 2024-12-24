@@ -237,7 +237,7 @@ if __name__ == '__main__':
     parser.add_argument('--output_dir', default='./output/VR')
     parser.add_argument('--text_encoder', default='bert-base-uncased')
     parser.add_argument('--image_encoder', default='ViT-B/16')
-    parser.add_argument('--gpu', type=int, nargs='+', default=[2])
+    parser.add_argument('--gpu', type=int, nargs='+', default=[0])
     parser.add_argument('--seed', default=42, type=int)
     args = parser.parse_args()
 
