@@ -95,11 +95,7 @@ def my_image_text_attack(test_loader, ref_model, ref_tokenizer, model_ALBEF, mod
     # text_attacker = myBertAttack(ref_model, ref_tokenizer, cls=False)
     text_attacker = myBertAttack(ref_model, ref_tokenizer, cls=True) # update
     
-    cnt = 0 
     for images, texts, targets in metric_logger.log_every(test_loader, 10, 'Evaluation:'):
-        cnt = cnt + 1
-        # if cnt > 1000:
-        #     break
         images, targets = images.to(device), targets.to(device)
 
         if mod:
