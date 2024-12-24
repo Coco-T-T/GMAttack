@@ -1,4 +1,4 @@
-vqa_root: '/dataset/mscoco' #followed by train2014/
+vqa_root: '/data/mscoco' #followed by train2014/
 train_files: ['vqa_train','vqa_val']
 ann_root: 'annotation'
 
