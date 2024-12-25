@@ -223,7 +223,7 @@ class myBertAttack():
         import_scores_2 = criterion(masked_embeds.log_softmax(dim=-1), image_embeds.softmax(dim=-1).repeat(len(masked_texts), 1))
         import_scores_2 = import_scores_2.sum(dim=-1)
 
-        return import_scores * 1000 + import_scores_2
+        return import_scores + import_scores_2
         # return import_scores
 
 
