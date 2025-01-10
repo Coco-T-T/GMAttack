@@ -1,4 +1,8 @@
 # GMAttack: Gray-Box Adversarial Attack for Multimodal Transformer-based Language Models
+<div align="center">
+  <img src="https://github.com/Coco-T-T/GMAttack/blob/main/Figure/overview.png" width="800px" />
+</div>
+
 # Environment
 Git clone our repository, creating a python environment and activate it via the following command: 
 ```bash
