@@ -1,6 +1,6 @@
 # GMAttack: Gray-Box Adversarial Attack for Multimodal Transformer-based Language Models
 <div align="center">
-  <img src="https://github.com/Coco-T-T/GMAttack/blob/main/Figure/overview_2.png" width="800px" />
+  <img src="https://github.com/Coco-T-T/GMAttack/blob/main/Figure/GMAttack-overview.png" width="800px" />
 </div>
 
 # Environment
