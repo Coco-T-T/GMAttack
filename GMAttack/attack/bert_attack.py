@@ -120,11 +120,11 @@ class myBertAttack():
             tgt_word = words[top_index[0]] 
             if tgt_word in filter_words:
                 continue
-            if keys[top_index[0]][0] > max_length - 2:
+            if keys[top_index[0]][0] > max_length - 3:
                 continue
 
-            substitutes = word_predictions[keys[top_index[0]][0]:keys[top_index[0]][1]]  # L, k
-            word_pred_scores = word_pred_scores_all[keys[top_index[0]][0]:keys[top_index[0]][1]]
+            substitutes = word_predictions[keys[top_index[0]][0]+1:keys[top_index[0]][1]+1]  # L, k
+            word_pred_scores = word_pred_scores_all[keys[top_index[0]][0]+1:keys[top_index[0]][1]+1]  # solve the mismatching problem
 
             substitutes = get_substitues(substitutes, self.tokenizer, self.ref_net, 1, word_pred_scores)
 
